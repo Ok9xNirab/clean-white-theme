@@ -1,0 +1,126 @@
+{
+  "name": "clean-white-theme",
+  "author": "Istiaq Nirab",
+  "editorScheme": "/clean-white.xml",
+  "dark": false,
+  "colors": {
+    "zinc200": "#f4f4f5",
+    "zinc300": "#e4e4e7",
+    "zinc400": "#d4d4d8",
+    "zinc500": "#a1a1aa",
+    "zinc600": "#71717a",
+    "zinc800": "#18181b",
+    "zinc900": "#09090b"
+  },
+  "ui": {
+    "*": {
+      "background": "white",
+      "foreground": "zinc900",
+      "infoForeground": "zinc500",
+      "successForeground": "#50A661",
+      "selectionBackground": "zinc900",
+      "selectionForeground": "white",
+      "selectionInactiveBackground": "zinc800",
+      "selectionBackgroundInactive": "zinc800",
+      "selectionInactiveForeground": "white",
+      "inactiveBackground": "white",
+      "disabledForeground": "zinc500",
+      "disabledText": "zinc500",
+      "inactiveForeground": "zinc500",
+      "errorForeground": "zinc300",
+      "borderColor": "zinc300",
+      "disabledBorderColor": "zinc300",
+      "focusColor": "zinc900",
+      "focusedBorderColor": "white",
+      "hoverBorderColor": "zinc500",
+      "pressedBorderColor": "zinc600",
+      "separatorColor": "zinc500"
+    },
+    "Button": {
+      "startBackground": "zinc300",
+      "endBackground": "zinc300",
+      "foreground": "zinc900",
+      "startBorderColor": "zinc300",
+      "endBorderColor": "zinc300",
+      "default": {
+        "startBackground": "zinc900",
+        "endBackground": "zinc900",
+        "foreground": "white",
+        "startBorderColor": "zinc900",
+        "endBorderColor": "zinc900",
+        "focusedBorderColor": "zinc900"
+      }
+    },
+    "Borders": {
+      "color": "zinc300",
+      "ContrastBorderColor": "zinc300"
+    },
+    "ComboBox": {
+      "nonEditableBackground": "zinc300",
+      "modifiedItemForeground": "#4FF0FF",
+      "foreground": "zinc900",
+      "ArrowButton": {
+        "iconColor": "white",
+        "disabledIconColor": "zinc200",
+        "nonEditableBackground": "zinc300"
+      }
+    },
+    "Editor": {
+      "background": "white",
+      "foreground": "zinc900",
+      "shortcutForeground": "zinc900"
+    },
+    "EditorPane.inactiveBackground": "#000000",
+    "EditorTabs": {
+      "underlinedTabForeground": "white",
+      "underlineColor": "zinc900",
+      "underlineHeight": 4,
+      "underlinedTabBackground": "zinc900",
+      "inactiveColoredFileBackground": "zinc900"
+    },
+    "Link": {
+      "activeForeground": "zinc600",
+      "hoverForeground": "zinc600",
+      "pressedForeground": "zinc600",
+      "visitedForeground": "zinc600",
+      "secondaryForeground": "zinc600"
+    },
+    "SearchEverywhere": {
+      "Tab": {
+        "selectedForeground": "white",
+        "selectedBackground": "zinc900"
+      },
+      "SearchField.borderColor": "#b3b3b3",
+      "Advertiser": {
+        "background": "#000080",
+        "borderInsets": "3,8,5,0"
+      }
+    },
+    "SearchMatch": {
+      "startBackground": "zinc200",
+      "endBackground": "zinc200"
+    },
+    "ToolWindow": {
+      "Button": {
+        "selectedForeground": "white",
+        "selectedBackground": "zinc900",
+        "hoverBackground": "zinc900"
+      },
+      "Stripe": {
+        "separatorColor": "zinc900",
+        "DragAndDrop": {
+          "separatorColor": "zinc900"
+        }
+      }
+    }
+  },
+  "icons": {
+    "ColorPalette": {
+      "Checkbox.Background.Selected": "#09090b",
+      "Checkbox.Border.Selected": "#09090b",
+      "Checkbox.Focus.Wide": "#09090b",
+      "Checkbox.Focus.Thin.Default": "#ffffff",
+      "Checkbox.Focus.Thin.Selected": "#ffffff"
+    }
+  }
+}
