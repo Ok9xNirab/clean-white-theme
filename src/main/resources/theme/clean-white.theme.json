@@ -20,9 +20,7 @@
       "successForeground": "#50A661",
       "selectionBackground": "zinc900",
       "selectionForeground": "white",
-      "selectionInactiveBackground": "zinc800",
       "selectionBackgroundInactive": "zinc800",
-      "selectionInactiveForeground": "white",
       "inactiveBackground": "white",
       "disabledForeground": "zinc500",
       "disabledText": "zinc500",
@@ -96,6 +94,7 @@
         "borderInsets": "3,8,5,0"
       }
     },
+    "TabbedPane.underlineColor": "zinc900",
     "SearchMatch": {
       "startBackground": "zinc200",
       "endBackground": "zinc200"
@@ -105,17 +104,28 @@
         "selectedForeground": "white",
         "selectedBackground": "zinc900",
         "hoverBackground": "zinc900"
-      },
-      "Stripe": {
-        "separatorColor": "zinc900",
-        "DragAndDrop": {
-          "separatorColor": "zinc900"
-        }
       }
+    },
+    "VersionControl": {
+      "Log.Commit": {
+        "currentBranchBackground": "zinc200",
+        "unmatchedForeground": "zinc900"
+      },
+      "RefLabel": {
+        "backgroundBase": "zinc900",
+        "backgroundBrightness": 0.7
+      },
+      "FileHistory.Commit.selectedBranchBackground": "zinc900"
+    },
+    "CompletionPopup": {
+      "foreground": "zinc900",
+      "matchForeground": "zinc500",
+      "selectionBackground": "zinc300"
     }
   },
   "icons": {
     "ColorPalette": {
+      "Blue.Stroke": "#a1a1aa",
       "Checkbox.Background.Selected": "#09090b",
       "Checkbox.Border.Selected": "#09090b",
       "Checkbox.Focus.Wide": "#09090b",
